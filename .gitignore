@@ -136,7 +136,7 @@ data/
 datasets/
 
 # models
-models/
+# models/
 checkpoints/
 *.h5
 *.pt
