@@ -1,0 +1,224 @@
+##################################################
+# OS FILES
+##################################################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+##################################################
+# EDITORS & IDEs
+##################################################
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+##################################################
+# ENVIRONMENT VARIABLES & SECRETS
+##################################################
+
+.env
+.env.*
+*.env
+.env.local
+.env.production
+.env.development
+
+# Secret files
+secrets.json
+config.local.*
+
+##################################################
+# PYTHON
+##################################################
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Type checking
+.mypy_cache/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+
+##################################################
+# NODE / JAVASCRIPT / TYPESCRIPT
+##################################################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+coverage/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+##################################################
+# REACT / NEXT / FRONTEND
+##################################################
+
+.next/
+.vercel/
+*.tsbuildinfo
+
+##################################################
+# FASTAPI / BACKEND
+##################################################
+
+*.db
+*.sqlite3
+logs/
+*.log
+
+##################################################
+# MACHINE LEARNING / DATA SCIENCE
+##################################################
+
+# datasets
+data/
+datasets/
+
+# models
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# experiment tracking
+mlruns/
+wandb/
+
+##################################################
+# DOCKER
+##################################################
+
+.dockerignore
+docker-compose.override.yml
+
+##################################################
+# BUILD ARTIFACTS
+##################################################
+
+*.out
+*.exe
+*.o
+*.a
+*.class
+*.jar
+
+##################################################
+# ARCHIVES
+##################################################
+
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+##################################################
+# LOGS
+##################################################
+
+logs/
+*.log
+
+##################################################
+# TEMP FILES
+##################################################
+
+tmp/
+temp/
+*.tmp
+
+##################################################
+# TEST OUTPUTS
+##################################################
+
+coverage/
+test-results/
+
+##################################################
+# DATABASES
+##################################################
+
+*.db
+*.sqlite
+*.sqlite3
+
+##################################################
+# SECURITY (VERY IMPORTANT)
+##################################################
+
+id_rsa
+id_rsa.pub
+*.pem
+*.key
+*.crt
+
+##################################################
+# MISC
+##################################################
+
+.cache-loader/
+.sass-cache/
