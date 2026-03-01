@@ -11,7 +11,7 @@ const app = express();
 // Middleware
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? 'https://your-frontend.vercel.app' 
+    ? 'https://competitor-intel-olive.vercel.app' 
     : 'http://localhost:3000',
   credentials: true
 }));
