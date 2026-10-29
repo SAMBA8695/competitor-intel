@@ -17,9 +17,13 @@
     "groq-sdk": "^0.37.0",
     "mongoose": "^8.0.0",
     "playwright": "^1.40.0",
+    "qs": "^6.17.1",
     "rate-limiter-flexible": "^4.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
+  },
+  "overrides": {
+    "qs": "$qs"
   }
 }
